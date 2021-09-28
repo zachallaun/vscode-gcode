@@ -185,5 +185,16 @@
         "y": "constant.numeric",
         "z": "constant.language",
         "comment": "variable.css"
+    },
+    "Dracula": {
+        "f": "entity.name.filename",
+        "m": "markup.changed",
+        "n": "comment",
+        "s": "constant",
+        "t": "constant",
+        "x": "markup.deleted",
+        "y": "markup.inserted",
+        "z": "entity.name.class",
+        "comment": "comment"
     }
 }

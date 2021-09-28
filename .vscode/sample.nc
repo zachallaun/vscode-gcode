@@ -25,3 +25,22 @@ X12. Y9.
 X24. Y9.
 G80
 M05
+
+#10 = 123.
+#11 = #12345
+#12 = 1. + 2.
+#13 = #[1000 + #567]
+#14 = ABS[123. * #[785 + #11]]
+
+X#14 Y#15 Z#16
+
+IF [#18 EQ #19] GOTO 500
+
+IF [#18 EQ #19] THEN
+(SOMETHING)
+ELSE
+(SOMETHING ELSE)
+ENDIF
+
+WHILE [#6 NE #7] DO 1
+END 1

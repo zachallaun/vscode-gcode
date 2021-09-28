@@ -9,13 +9,13 @@
       "include": "#comments"
     },
     {
+      "include": "#operators"
+    },
+    {
       "include": "#variables"
     },
     {
       "include": "#sub-programs"
-    },
-    {
-      "include": "#operators"
     },
     {
       "include": "#address-alphanumeric"
@@ -107,7 +107,12 @@
         },
         {
           "name": "var.system.fanuc.gcode",
-          "match": "\\#([1-9][0-9]{3})(?!\\d)"
+          "match": "\\#([1-9][0-9]{3})(?!\\d)",
+          "captures": {
+            "0": {
+              "name": "replace.s"
+            }
+          }
         }
       ]
     },
